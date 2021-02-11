@@ -1,0 +1,50 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+   }
+   
+   p {
+    background-color: transparent;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid;
+    margin-right: 0.25rem;
+    display: inline-block;
+   
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+   }
+   
+   .box {
+    background-color: rgb(245, 244, 244);
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .default {
+    font-size: 18px;
+    color: blue;
+    background-color: rgb(219, 245, 255);
+   }
+   
+   .big {
+    font-size: 48px;
+    color: red;
+    background-color: rgb(247, 233, 235);
+   }
+   
+   .small {
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    background-color: rgb(219, 255, 219);
+   }
